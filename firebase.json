@@ -1,0 +1,30 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "flutter-chating-app",
+          "appId": "1:18755904540:android:f612bd5addc09ad7dc2bd9",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "flutter-chating-app",
+          "appId": "1:18755904540:ios:bdb71d084d25fa0fdc2bd9",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "flutter-chating-app",
+          "configurations": {
+            "android": "1:18755904540:android:f612bd5addc09ad7dc2bd9",
+            "ios": "1:18755904540:ios:bdb71d084d25fa0fdc2bd9"
+          }
+        }
+      }
+    }
+  }
+}
